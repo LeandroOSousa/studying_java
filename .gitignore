@@ -1,0 +1,92 @@
+# Ignora diretórios e arquivos específicos do IntelliJ IDEA
+/.idea
+*.iml
+
+# Ignora arquivos de cache e configurações do IntelliJ IDEA
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/libraries
+.idea/modules.xml
+.idea/*.iml
+.idea/modules
+
+# Ignora diretórios de saída e de build
+/out
+/build
+/target
+
+# Ignora dependências baixadas pelo Maven e Gradle
+.mvn
+/.mvn
+**/target/
+**/out/
+.gradle
+build/
+
+# Ignora configurações específicas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignora arquivos de log
+*.log
+
+# Ignora arquivos de cache e temporários do IntelliJ
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/shelf
+.idea/httpRequests
+.idea/dataSources/
+.idea/sqlDataSources.xml
+.idea/dataSources.ids
+.idea/datasources.xml
+.idea/datasources.local.xml
+.idea/sonarlint
+.idea/codeStyles
+
+# Ignora dependências do Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Ignora arquivos de configuração locais do Gradle
+.gradle
+gradle-app.setting
+gradle-app.profile
+
+# Arquivo para chaves de segurança, senhas, ou variáveis de ambiente
+.env
+.env.local
+
+# IntelliJ IDE shared indexes
+.idea/indexes/
+.idea/binary
+
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
