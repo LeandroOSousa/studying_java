@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /*
-Desafio 7: Verificador de Anagramas
+Desafio: Verificador de Anagramas
 Crie um método que recebe duas Strings e verifica se elas são anagramas,
 ignorando maiúsculas, minúsculas, espaços e pontuação.
  */

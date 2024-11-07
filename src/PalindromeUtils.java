@@ -10,7 +10,7 @@ Retorne true se a String for um palíndromo e false caso contrário.
 
 public class PalindromeUtils {
     public static boolean isPalindrome(String word){
-
+        // Verifica se a entrada é nula e retorna false caso seja
         if (word == null) {
             return false;
         }

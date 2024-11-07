@@ -27,6 +27,7 @@ import java.util.stream.Collectors;
 
 public class FilterSortNamesUtils {
     public static List<String> filtrarENomear(List<String> nomes, char letra){
+        // Cria uma String que recebe o valor do char e o transforma em minúscula
         String prefixo = String.valueOf(letra).toLowerCase();
         return nomes.stream()
                 .filter(nome -> nome.toLowerCase().startsWith(prefixo)) // Filtra nomes que começam com a letra
@@ -36,7 +37,7 @@ public class FilterSortNamesUtils {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        // Entrada:
         List<String> nomes = Arrays.asList("Ana", "Alice", "Bruno", "Carlos", "Amanda", "Bianca");
         System.out.print("Digite uma letra: ");
         String sLetra = sc.nextLine();
